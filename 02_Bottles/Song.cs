@@ -3,9 +3,6 @@ using System.Diagnostics;
 
 namespace _02_Bottles {
 	internal class Song {
-		public Song() {
-		}
-
 		internal string CountBottles(int v) {
 			string verse = "";
 			for(int i = v; i >= 0; i--) {
